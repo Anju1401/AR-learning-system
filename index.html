@@ -31,7 +31,11 @@
         </a-marker>
 
         <!-- AR Camera -->
-        <a-entity camera></a-entity>
+    
+        <a-entity camera look-controls wasd-controls position="0 1.6 0">
+    <a-camera near="0.1" far="1000" fov="80"></a-camera>
+</a-entity>
+
     </a-scene>
 
     <script>
